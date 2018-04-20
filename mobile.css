@@ -1,0 +1,51 @@
+/* Use Command+Option+I to open Developer Tools in Google Chrome to adjust
+screen size and pixels */
+
+/*Below is a media query for a max of 480 Pixels, when it goes past 480 pixels
+ the screen will turn red*/
+@media all and (max-width: 480px){
+
+	body{
+		/*background-color: red;*/
+	}
+
+	.picme{
+		display: none;
+	}
+
+	.navtext{
+	position: relative;
+	margin-bottom: 20px;
+	}
+
+	.navtext a {
+	display: block;
+	}
+
+}
+
+/* Below is a media query for a min of 481 Pixels to 767 pixels, in between
+those numbers the screen will be green */
+@media all and (min-width: 481px) and (max-width: 767px){
+
+	body{
+		/*background-color: green;*/
+	}
+
+	.wrapper{
+		
+
+	}
+
+}
+
+/* Below is a media query for a min of 768 Pixels to 992 pixels, in between
+those numbers the screen will be blue and the 4 boxes will increase in width */
+@media all and (min-width: 768px) and (max-width: 992px){
+
+
+	body{
+		/*background-color: none; */
+	}
+
+}
